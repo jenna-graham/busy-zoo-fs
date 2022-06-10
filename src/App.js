@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
 
+
 function App() {
+
+  const [tigerSize, setTigerSize] = useState(25);
+  const [gorillaSize, setGorillaSize] = useState(25);
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="fight">
+          <div className="fighter">
+            <img src="tiger.png" style={{ width: `${tigerSize * 2 }px` }}/>
+            <button onClick={() => setTigerSize(tigerSize + 10)}>Tiger is Growing!</button>
+            <button onClick={() => setGorillaSize(gorillaSize - 10)}>Gorilla is Shrinking</button>
+          </div>
+          <div className="fighter">
+            <img src="gorilla.png" style={{ width: `${gorillaSize * 3 }px` }}/>            <button onClick={() => setGorillaSize(gorillaSize + 10)}>Gorilla is growing!</button>
+            <button onClick={() => setTigerSize(tigerSize - 10)}>Tiger is shrinking</button>
+          </div>
+        </div>
       </header>
+
     </div>
+  
+
+
   );
+
 }
 
 export default App;

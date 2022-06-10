@@ -1,20 +1,16 @@
+body {
+  background-image: url('./jungle.jpg');
+  background-repeat: no-repeat;
+
+}
+
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,16 +19,22 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.fight {
+  display: flex;
+  background-color: rgba(240, 248, 255, 0.383);
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 80%;
+  border-radius: 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fighter {
+  margin: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  padding-bottom: 10px;
 }
