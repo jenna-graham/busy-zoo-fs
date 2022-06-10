@@ -38,15 +38,15 @@ function App() {
           <div className="fighter">
             <img src="tiger.png" style={{ width: `${tigerSize * 5 }px` }}/>
             <div className="animal-buttons">
-              <button onClick={() => setTigerSize(tigerSize + 10)}>Tiger drinks the protein powder someone left behind!</button>
-              <button onClick={() => setGorillaSize(gorillaSize - 10)}>Tiger fights Gorilla and deminishes his power.</button>
+              <button onClick={() => setTigerSize(tigerSize + 5)}>Tiger drinks the protein powder someone left behind!</button>
+              <button onClick={() => setGorillaSize(gorillaSize - 4)}>Tiger fights Gorilla and deminishes his power.</button>
             </div> 
           </div>
           <div className="fighter">
-            <img src="gorilla.png" style={{ width: `${gorillaSize * 7 }px` }}/>            
+            <img src="gorilla.png" style={{ width: `${gorillaSize * 6 }px` }}/>            
             <div className="animal-buttons">
-              <button onClick={() => setGorillaSize(gorillaSize + 10)}>Gorilla finds mutagen canister that fell from space station!</button>
-              <button onClick={() => setTigerSize(tigerSize - 10)}>Gorilla takes on Tiger, this could end bad!</button>
+              <button onClick={() => setGorillaSize(gorillaSize + 4)}>Gorilla finds mutagen canister that fell from space station!</button>
+              <button onClick={() => setTigerSize(tigerSize - 5)}>Gorilla takes on Tiger, this could end bad!</button>
             </div>
           </div>
         </div>
