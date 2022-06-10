@@ -64,14 +64,14 @@ div.animal-buttons {
 .parade {
   display: flex;
   flex-direction: row;
-  background-color: rgba(154, 192, 89, 0.734);
+  background-color: rgba(112, 123, 92, 0.734);
   padding: 20px;
-  border:rgba(25, 47, 25, 0.676);
+  border: 2px solid rgba(4, 6, 4, 0.676);
   border-radius: 5px;
   }
   
 .animal {
-  background-color:rgba(25, 47, 25, 0.467);
+  background-color:rgba(40, 42, 40, 0.467);
   padding: 10px;
   border-radius: 40%;
 }
@@ -79,8 +79,9 @@ div.animal-buttons {
 h3 {
   background-color: rgba(53, 53, 53, 0.698);
   padding: 20px;
-  border: 5px solid black;
+  border: 5px solid rgba(4, 6, 4, 0.676);
   border-radius: 10px;
+  font-size: 1.5rem;
 }
 .open-button {
   margin-top: 40px;
@@ -94,6 +95,8 @@ h3 {
 }
 .parade-buttons {
   width: 100px;
+
+  
   border-radius: 10px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

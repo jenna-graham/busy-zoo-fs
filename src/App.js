@@ -8,7 +8,7 @@ function App() {
   const [tigerSize, setTigerSize] = useState(25);
   const [gorillaSize, setGorillaSize] = useState(25);
   const [jungleIsOpen, setJungleIsOpen] = useState(true);
-  const [animals, setAnimals] = useState(['sloth', 'peacock', 'monkey', 'tiger', 'flamingo']);
+  const [animals, setAnimals] = useState(['sloth']);
  
   function handleSlothClick() {
     animals.push('sloth');
