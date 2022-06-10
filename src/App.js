@@ -50,13 +50,14 @@ function App() {
             </div>
           </div>
         </div>
+        <button className="open-button" onClick={() => setJungleIsOpen(!jungleIsOpen)}>Should I enter?</button>
         <OpenClosedSign jungleIsOpen={jungleIsOpen} />
-        <button onClick={() => setJungleIsOpen(!jungleIsOpen)}>Should I enter?</button>
+        
         <div>
           <p>Catch the daily parade, directed by Flash the Sloth</p>
         </div>
         <AnimalList animals={animals} />
-        <div className="buttons">
+        <div className="parade-buttons">
           <button onClick={handleSlothClick}>Add sloth</button>
           <button onClick={handlePeacockClick}>Add peacock</button>
           <button onClick={handleMonkeyClick}>Add monkey</button>

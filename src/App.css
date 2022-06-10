@@ -2,6 +2,7 @@ body {
   background-image: url('./jungle.jpg');
   background-repeat: no-repeat; background-size: cover;
   background-position: fixed;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -50,9 +51,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-img {
-  padding-bottom: 10px;
-}
+
 div.animal-buttons {
   width: 200px;
   height: 35px;
@@ -60,19 +59,21 @@ div.animal-buttons {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .parade {
   display: flex;
   flex-direction: row;
-  background-color: rgba(58, 107, 58, 0.676);
+  background-color: rgba(154, 192, 89, 0.734);
   padding: 20px;
   border:rgba(25, 47, 25, 0.676);
   border-radius: 5px;
   }
   
 .animal {
-  background-color:rgba(25, 47, 25, 0.55);
+  background-color:rgba(25, 47, 25, 0.467);
   padding: 10px;
+  border-radius: 40%;
 }
 
 h3 {
@@ -80,4 +81,19 @@ h3 {
   padding: 20px;
   border: 5px solid black;
   border-radius: 10px;
+}
+.open-button {
+  margin-top: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(154, 192, 89, 0.893);
+  padding: 10px;
+  width: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.parade-buttons {
+  width: 100px;
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
