@@ -1,12 +1,16 @@
 body {
   background-image: url('./jungle.jpg');
-  background-repeat: no-repeat;
-
+  background-repeat: no-repeat; background-size: cover;
+  background-position: fixed;
 }
 
 
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   
 }
 
@@ -22,15 +26,26 @@ body {
 .fight {
   display: flex;
   background-color: rgba(240, 248, 255, 0.383);
+  border: 2px solid black;
   align-items: center;
   justify-content: center;
   height: 300px;
-  width: 80%;
+  width: 100%;
   border-radius: 30px;
+  max-width: 100%;
+  max-height: auto;
+}
+.fight .fighter {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
 .fighter {
-  margin: 20px;
-  position: relative;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,10 +53,13 @@ body {
 img {
   padding-bottom: 10px;
 }
-button {
-  width: 150px;
+div.animal-buttons {
+  width: 200px;
   height: 35px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
 }
 .parade {
   display: flex;
@@ -50,14 +68,16 @@ button {
   padding: 20px;
   border:rgba(25, 47, 25, 0.676);
   border-radius: 5px;
-  animation: spin 10s linear infinite;
   }
   
 .animal {
   background-color:rgba(25, 47, 25, 0.55);
-  padding: 5px;
+  padding: 10px;
 }
-.buttons {
-  height: 100px;
-  
+
+h3 {
+  background-color: rgba(53, 53, 53, 0.698);
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 10px;
 }

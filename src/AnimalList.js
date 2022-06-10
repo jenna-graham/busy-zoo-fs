@@ -3,6 +3,7 @@ import Animal from './Animal.js';
 
 export default function AnimalList({ animals }) {
   return (
+      
     <div className="cricle-wrapper">
       <div className="parade">
         {

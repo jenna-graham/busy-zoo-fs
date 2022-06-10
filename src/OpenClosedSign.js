@@ -5,8 +5,8 @@ export default function OpenClosedSign({ jungleIsOpen }) {
     <div className={jungleIsOpen ? 'open' : 'closed'}>
       {
         jungleIsOpen
-          ? <h3>Yaay! The jungle is safe, Come on in!</h3>
-          : <h3>Sorry The jungle is not Safe right now, Enter at your Own Risk!</h3>
+          ? <h3>🌿Yaay! The jungle is safe, Come on in!</h3>
+          : <h3>Eek! The jungle is not Safe right now, <br></br> ☠️Enter at your Own Risk!☠️</h3>
       }
     </div>
   );
