@@ -38,7 +38,7 @@ function App() {
           <div className="fighter">
             <img src="tiger.png" style={{ width: `${tigerSize * 5 }px` }}/>
             <div className="animal-buttons">
-              <button onClick={() => setTigerSize(tigerSize + 5)}>Tiger drinks the protein powder someone left behind!</button>
+              <button onClick={() => setTigerSize(tigerSize + 5)}>Tiger eats the protein powder someone left behind!</button>
               <button onClick={() => setGorillaSize(gorillaSize - 4)}>Tiger fights Gorilla and deminishes his power.</button>
             </div> 
           </div>
