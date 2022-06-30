@@ -1,7 +1,8 @@
 body {
   background-image: url('./jungle.jpg');
-  background-repeat: no-repeat; background-size: cover;
-  background-position: fixed;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -13,6 +14,15 @@ body {
   justify-content: center;
   align-items: center;
   
+}
+.admin-link {
+  background-color: rgba(241, 209, 136, 0.644);
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+a:link {
+  color: black;
 }
 
 .App-header {
