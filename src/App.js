@@ -4,6 +4,7 @@ import OpenClosedSign from './OpenClosedSign.js';
 import AnimalList from './AnimalList.js';
 import MusicTiger from './Tiger.js';
 import MusicGorilla from './Gorilla.js';
+import CustomButtons from './CustomButtons';
 
 function App() {
   const [tigerSize, setTigerSize] = useState(25);
@@ -62,21 +63,22 @@ function App() {
             </div>
           </div>
         </div>
-        <button className="open-button" onClick={() => setJungleIsOpen(!jungleIsOpen)}>
-          Should I enter?
-        </button>
+        
         <OpenClosedSign jungleIsOpen={jungleIsOpen} />
+        <CustomButtons onClick={() => setJungleIsOpen(!jungleIsOpen)}>
+          Should I enter?
+        </CustomButtons>
 
         <div>
           <p>Catch the daily parade, directed by Flash the Sloth</p>
         </div>
         <AnimalList animals={animals} />
         <div className="parade-buttons">
-          <button onClick={handleSlothClick}>Add sloth</button>
-          <button onClick={handlePeacockClick}>Add peacock</button>
-          <button onClick={handleMonkeyClick}>Add monkey</button>
-          <button onClick={handleTigerClick}>Add tiger</button>
-          <button onClick={handleFlamingoClick}>Add flamingo</button>
+          <CustomButtons onClick={handleSlothClick}>Add sloth</CustomButtons>
+          <CustomButtons onClick={handlePeacockClick}>Add peacock</CustomButtons>
+          <CustomButtons onClick={handleMonkeyClick}>Add monkey</CustomButtons>
+          <CustomButtons onClick={handleTigerClick}>Add tiger</CustomButtons>
+          <CustomButtons onClick={handleFlamingoClick}>Add flamingo</CustomButtons>
         </div>
       </header>
     </div>
