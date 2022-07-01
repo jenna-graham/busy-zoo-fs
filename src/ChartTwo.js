@@ -1,6 +1,6 @@
-import { DashboardRounded } from '@mui/icons-material';
+
 import React from 'react';
-import { VictoryPie, VictoryContainer } from 'victory';
+import { VictoryPie, } from 'victory';
 
 
 const data = [
