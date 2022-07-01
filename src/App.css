@@ -116,5 +116,15 @@ h3 {
   padding: 0px;
 }
 .chart-one {
-  background-color: rgba(255, 255, 255, 0.637);
+  background-color: rgba(255, 255, 255, 0.537);
+  border: 4px dashed;
+}
+
+h1 {
+  color:rgb(179, 221, 28);
+  color:rgb(40, 118, 51);
+  color:rgb(221, 205, 28);
+  color:rgb(221, 141, 28);
+  color:rgb(221, 218, 28);
+  color:rgb(17, 33, 4);
 }

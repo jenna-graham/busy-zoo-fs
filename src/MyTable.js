@@ -17,13 +17,15 @@ export default function MyTable() {
           ]
         }
         data={customers}
-        title="My Cute Table"
+        title="My First Table"
         options={{
           headerStyle: {
-            border: 'solid 3px orange'
+            border: 'solid 3px rgb(18, 74, 17)',
+            backgroundColor: 'rgba(38, 44, 33, 0.63)',
+            
           }, 
           rowStyle: {
-            background: 'green',
+            background: 'rgba(165, 122, 42, 0.592)',
           }
 
         }} />

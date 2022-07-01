@@ -1,5 +1,4 @@
-import { withThemeCreator } from '@material-ui/styles';
-import { color } from '@mui/system';
+
 import React from 'react';
 import { VictoryBar, VictoryChart, VictoryAxis } from 'victory';
 
@@ -16,7 +15,6 @@ export default function ChartOne() {
       <VictoryChart
         style={{
           background: { fill: 'white' },
-          
         }}
       
         domainPadding={20}>
