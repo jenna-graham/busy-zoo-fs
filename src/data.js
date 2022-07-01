@@ -1,4 +1,5 @@
-[{ 'id':1, 'first_name':'Borden', 'last_name':'Lefever', 'email':'blefever0@google.ru', 'gender':'Male', 'ip_address':'156.94.82.209' },
+export const customers = [
+  { 'id':1, 'first_name':'Borden', 'last_name':'Lefever', 'email':'blefever0@google.ru', 'gender':'Male', 'ip_address':'156.94.82.209' },
   { 'id':2, 'first_name':'Riley', 'last_name':'Camelli', 'email':'rcamelli1@weebly.com', 'gender':'Male', 'ip_address':'192.61.4.170' },
   { 'id':3, 'first_name':'Skipp', 'last_name':'Tippin', 'email':'stippin2@themeforest.net', 'gender':'Male', 'ip_address':'172.183.64.106' },
   { 'id':4, 'first_name':'Kyle', 'last_name':'Nathon', 'email':'knathon3@columbia.edu', 'gender':'Male', 'ip_address':'32.235.57.75' },
@@ -97,4 +98,5 @@
   { 'id':97, 'first_name':'Daloris', 'last_name':'Baseggio', 'email':'dbaseggio2o@t-online.de', 'gender':'Female', 'ip_address':'200.211.93.251' },
   { 'id':98, 'first_name':'Tannie', 'last_name':'Minot', 'email':'tminot2p@sourceforge.net', 'gender':'Male', 'ip_address':'225.125.65.230' },
   { 'id':99, 'first_name':'Vasili', 'last_name':"O'Suaird", 'email':'vosuaird2q@wp.com', 'gender':'Male', 'ip_address':'132.35.107.77' },
-  { 'id':100, 'first_name':'Jobina', 'last_name':'Rembrandt', 'email':'jrembrandt2r@topsy.com', 'gender':'Female', 'ip_address':'187.158.77.9' }];
+  { 'id':100, 'first_name':'Jobina', 'last_name':'Rembrandt', 'email':'jrembrandt2r@topsy.com', 'gender':'Female', 'ip_address':'187.158.77.9' }
+];
